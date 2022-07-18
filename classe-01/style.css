@@ -1,0 +1,63 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-size: 100%;
+    list-style-type: none;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 432px;
+    margin: 0 auto;
+    margin-bottom: 134px;
+    margin-top: 176px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 30px 70px 30px;
+    
+}
+
+p.cardUm {
+    margin-bottom: 40px;
+    padding: 0 48px;
+
+}
+
+p.cardDois {
+    margin-bottom: 40px;
+    padding: 0px 60px 0px 60px;
+
+}
+
+a {
+    padding: 14px 62px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.blue {
+    background-color: #2C3E50;
+}
+
+.orange {
+    background-color: #ED6755;
+}
+
+.btn-fechar {
+    width: 30px;
+    margin-left: auto;
+}

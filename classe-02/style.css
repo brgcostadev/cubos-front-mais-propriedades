@@ -1,0 +1,100 @@
+:root {
+    --azulEscuro: #101439;
+    --centralizar: 0 auto;
+}
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+div.cardUm {
+    max-width: 505px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 126px;
+    background-color: #FFFFFF;
+    color: var(--azulEscuro);
+    border-radius: 10px;
+}
+
+.img {
+    padding: 54px 0 10px 85px;
+}
+
+p.conteudo {
+    padding: 0px 85px 38px 85px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+
+}
+
+p.signature {
+    padding: 0 0 75px 85px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+div.cardDois {
+    max-width: 431px;
+    min-height: 391px;
+    margin: 0 auto;
+    background-color: var(--azulEscuro);
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+p {
+    margin-left: 3px;
+}
+
+p.textoUm {
+    margin-bottom: 13px;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+p.textoDois {
+    margin-bottom: 100px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--azulEscuro);
+    background-color: #FFFFFF;
+    padding: 25px 101px;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
